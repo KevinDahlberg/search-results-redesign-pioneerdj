@@ -4,6 +4,88 @@
 
 /**
 * Table of Contents
-* 
-*
+* - Header
+*   - Nav Bar
 */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #2a2937;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+/* Header */
+.container {
+  padding-top: 18px;
+  padding-bottom: 0;
+  display: block;
+  width: 100%;
+  background-color: #2a2937;
+  z-index: 1;
+  backface-visibility: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 7px;
+  padding-right: 7px;
+  position: relative;
+}
+
+
+/** Nav Bar */
+.logo {
+  display: block;
+  width: 170px;
+  float: left;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+
+}
+
+.main-nav {
+  display: block;
+  float: left;
+  margin: 3px 0 0 15px;
+}
+
+  .main-nav ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .main-nav ul li {
+    float: left;
+    margin: 0 0 0 30px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    position: relative;
+  }
+
+  .main-nav ul li a {
+    display: block;
+    padding: 0 0 15px;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+  }
