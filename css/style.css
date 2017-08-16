@@ -4,13 +4,15 @@
 
 /**
 * Table of Contents
-* - Header
+* # Header
 *   - Nav Bar
 *   - Main Nav
 *   - Action Nav
 *   - Subhead
-*
+* # Content
+*   - Left Sidebar
 */
+
 
 body {
   font-family: Arial, sans-serif;
@@ -19,6 +21,13 @@ body {
   color: #2a2937;
   background-color: #fff;
   margin: 0 auto;
+}
+
+body .wrap {
+  background: url('../resources/images/background.png') repeat-y;
+  background-size: 100% auto;
+  z-index: 1;
+  overflow: visible;
 }
 
 html, body {
@@ -55,27 +64,27 @@ header {
 }
 
 
-/** Nav Bar */
-.logo {
-  display: block;
-  width: 170px;
-  float: left;
-}
+  /** Nav Bar */
+  .logo {
+    display: block;
+    width: 170px;
+    float: left;
+  }
 
-.logo img {
-  width: 100%;
-  height: auto;
-}
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
 
-.navbar {
+  .navbar {
 
-}
-/** Main Nav */
-.main-nav {
-  display: block;
-  float: left;
-  margin: 3px 200px 0 15px;
-}
+  }
+  /** Main Nav */
+  .main-nav {
+    display: block;
+    float: left;
+    margin: 3px 200px 0 15px;
+  }
 
   .main-nav ul {
     width: 100%;
@@ -158,3 +167,75 @@ header {
     padding-bottom: 7px;
     font-family: "pdj", Arial, sans-serif;
   }
+
+/* Content */
+
+.content {
+  display: flex;
+}
+
+.content-col {
+  flex-basis: 15%;
+}
+
+.box {
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #ececec;
+}
+
+  /* left sidebar*/
+  .left-sidebar-container {
+    flex-basis: 20%;
+  }
+
+  /* search box */
+  .search-box {
+    margin-top: 50px;
+  }
+
+  .search-box form {
+    display: inline-flex;
+    width: 100%;
+  }
+
+  .search-box input {
+    padding: 5px 10px;
+    height: 40px;
+    border: 2px solid #e6e7e8;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 80%;
+  }
+
+  .search-button {
+    border: none;
+    background-color: #fff;
+  }
+
+  .search-button img {
+    padding: 5px 10px;
+    height: 40px;
+    width: auto;
+  }
+
+  .search-button:hover {
+    background-color: #2a2937;
+    opacity: .2;
+  }
+
+  /* main-content */
+  .main-content {
+    flex-basis: 50%;
+  }
+
+  /* Filter */
+    .filter {
+
+    }
+
+    .filter li {
+      list-style: none;
+    }

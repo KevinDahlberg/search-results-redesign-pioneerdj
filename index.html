@@ -9,45 +9,69 @@
 
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div id="navbar" class="navbar">
-            <a href="" class="logo">
-              <img src="resources/images/pioneer-dj.png" alt="Pioneer DJ logo">
-            </a>
+    <div class="wrap">
+      <header class="header">
+        <div class="container">
+          <div id="navbar" class="navbar">
+              <a href="" class="logo">
+                <img src="resources/images/pioneer-dj.png" alt="Pioneer DJ logo">
+              </a>
+          </div>
+          <div class="main-nav">
+            <ul>
+              <li><a href="">Products</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Support</a></li>
+              <li><a href="">Find a store</a></li>
+            </ul>
+          </div>
+          <div class="action-nav">
+            <ul>
+              <li><a href=""><img src="resources/images/search-icon.png" alt="search icon"></a></li>
+              <li><a href="">Register</a></li>
+              <li><a href="">Log in</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="main-nav">
-          <ul>
-            <li><a href="">Products</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Support</a></li>
-            <li><a href="">Find a store</a></li>
-          </ul>
-        </div>
-        <div class="action-nav">
-          <ul>
-            <li><a href=""><img src="resources/images/search-icon.png" alt="search icon"></a></li>
-            <li><a href="">Register</a></li>
-            <li><a href="">Log in</a></li>
-          </ul>
-        </div>
+      </header>
+      <div class="subhead" id="js-sticky-wrap">
+            <div class="head-col"></div>
+            <h1>Search</h1>
+            <div class="head-col"></div>
       </div>
-    </header>
-    <div class="subhead" id="js-sticky-wrap">
-          <div class="head-col"></div>
-          <h1>Search</h1>
-          <div class="head-col"></div>
+      <div class="content">
+        <div class="content-col"></div>
+        <div class="left-sidebar-container">
+          <div class="search-box box">
+            <form>
+              <input type="text" placeholder="Search..." aria-label="search form">
+              <button class="search-button"><img src="resources/images/search-icon.png" alt="search icon"></button>
+          </div>
+          <div class="filter box">
+            <ul class="filter-list">
+              <li>
+                <input type="checkbox" />
+                <label>Video</label>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <label>Download</label>
+              </li>
+              <li>
+                <input type="checkbox" />
+                <label>News</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-content">
+        </div>
+        <div class="content-col"></div>
+      </div>
+
+
+
     </div>
-    <div class="content">
-      <div class="left-sidebar-container">
-      </div>
-      <div class="main-container">
-      </div>
-    </div>
-
-
-
-
     <script type="text/javascript" src="js/client.js"></script>
   </body>
 </html>
