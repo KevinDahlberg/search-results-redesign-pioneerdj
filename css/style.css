@@ -54,6 +54,7 @@ header {
 }
 
 .container {
+  position: sticky;
   padding-top: 18px;
   padding-bottom: 0;
   display: inline-flex;
@@ -269,4 +270,27 @@ header {
       width: 25px;
       height: 25px;
       vertical-align:sub;
+    }
+
+  /* Related */
+    .related h6 {
+      margin: 0;
+    }
+
+    .related ul {
+      margin: 20px;
+    }
+
+    .related li {
+      list-style: none;
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+
+    .related a {
+      text-decoration: none;
+    }
+
+    .related a:hover {
+      color: #24f6d6;
     }
