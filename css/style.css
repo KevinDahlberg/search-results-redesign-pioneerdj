@@ -34,6 +34,18 @@ html, body {
   height: 100%;
 }
 
+h6, .h6 {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: none;
+  color: #3b3b53;
+}
+
+input[type="checkbox" i]:checked + label:before {
+  background: #24f6d6;
+}
 
 /* Header */
 header {
@@ -182,6 +194,7 @@ header {
   background-color: white;
   padding: 20px 20px 20px 20px;
   border: 1px solid #ececec;
+  margin-top: 20px;
 }
 
   /* left sidebar*/
@@ -236,6 +249,24 @@ header {
 
     }
 
+    .filter h6 {
+      margin: 0;
+    }
+
+    .filter ul {
+      margin: 20px;
+    }
+
     .filter li {
       list-style: none;
+      font-size: 16px;
+    }
+
+    .filter input {
+      padding: 5px 10px;
+      border: 2px solid #e6e7e8;
+      border-radius: 6px;
+      width: 25px;
+      height: 25px;
+      vertical-align:sub;
     }
