@@ -175,9 +175,6 @@ header {
     font-family: "pdj", Arial, sans-serif;
   }
 
-  .contract {
-    height: 50px;
-  }
 
 /* Content */
 
@@ -293,3 +290,5 @@ header {
     .related a:hover {
       color: #24f6d6;
     }
+
+  /* Content */

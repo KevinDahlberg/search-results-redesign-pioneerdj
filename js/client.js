@@ -1,11 +1,10 @@
-console.log('hello out there!');
 $(function() {
   var divToCollapse = $('#js-sticky-wrap');
-  stickyDiv(divToCollapse);
+  collapseDiv(divToCollapse);
 });
 
 
-function stickyDiv(el) {
+function collapseDiv(el) {
   $(window).scroll(function() {
     if ($(window).scrollTop() > 161) {
       el.stop().animate({
@@ -14,7 +13,7 @@ function stickyDiv(el) {
     } else {
       el.stop().animate({
         height: 100
-      }, 30, "linear");
+      }, 70, "linear");
     }
   });
 }
