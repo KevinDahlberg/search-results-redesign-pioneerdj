@@ -28,6 +28,7 @@ body .wrap {
   background-size: 100% auto;
   z-index: 1;
   overflow: visible;
+  padding: 50px 0;
 }
 
 html, body {
@@ -393,3 +394,9 @@ header {
   }
 
   /* footer */
+  .footer {
+    width: 100vw;
+    height: 200px;
+    background-color: #2a2937;
+    color: white;
+  }
